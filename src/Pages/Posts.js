@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 export default function Posts() {
   const lien = "http://localhost:8085";
-  // const lien = "https://fizitech.org";
   const [article, setArticle] = useState([]);
 
   useEffect(() => {
