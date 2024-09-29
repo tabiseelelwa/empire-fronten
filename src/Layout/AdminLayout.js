@@ -9,8 +9,7 @@ const AdminLayout = () => {
   const navigate = useNavigate();
   axios.defaults.withCredentials = true;
 
-  // const lien = "https://fizitech.org";
-  const lien = "http://localhost:8085";
+  const lien = "https://empire-backend.fizitech.org";
 
   const [nom, setNom] = useState("");
 

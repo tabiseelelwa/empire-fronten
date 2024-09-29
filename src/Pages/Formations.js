@@ -2,8 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 const Formations = () => {
-  // const lien = "https://fizitech.org";
-  const lien = "http://localhost:8085";
+  const lien = "https://empire-backend.fizitech.org";
   const [formations, setFormations] = useState([]);
   useEffect(() => {
     axios

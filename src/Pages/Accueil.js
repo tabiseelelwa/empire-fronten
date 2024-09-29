@@ -5,8 +5,7 @@ import { A11y, Autoplay } from "swiper/modules";
 import axios from "axios";
 
 const Accueil = () => {
-  const lien = "http://localhost:8085";
-  // const lien = "https://fizitech.org";
+  const lien = "https://empire-backend.fizitech.org";
 
   const [article, setArticle] = useState([]);
 

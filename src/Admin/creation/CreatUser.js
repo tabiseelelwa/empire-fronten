@@ -3,8 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const CreatUser = () => {
-
-  const lien = "https://fizitech.org";
+  const lien = "https://empire-backend.fizitech.org";
   const navigate = useNavigate();
   const [values, setValues] = useState({
     nom: "",

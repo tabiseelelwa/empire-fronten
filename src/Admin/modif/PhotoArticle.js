@@ -12,7 +12,7 @@ const PhotoArticle = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8085/post/${idArticle}`)
+      .get(`https://empire-backend.fizitech.org/post/${idArticle}`)
       .then((res) => setArticle(res.data[0]));
   }, []);
 
@@ -21,7 +21,10 @@ const PhotoArticle = () => {
     const formdata = new FormData();
     formdata.append("image", fichier);
     axios
-      .put(`http://localhost:8085/photo-article/${idArticle}`, formdata)
+      .put(
+        `https://empire-backend.fizitech.org/photo-article/${idArticle}`,
+        formdata
+      )
       .then((res) => {
         console.log(res);
         window.location.reload();
@@ -34,7 +37,7 @@ const PhotoArticle = () => {
       <form onSubmit={photoArticle}>
         <img
           style={{ height: "500px", width: "75%", marginBottom: "1rem" }}
-          src={`http://localhost:8085/images-article/${article.imageArticle}`}
+          src={`https://empire-backend.fizitech.org/images-article/${article.imageArticle}`}
           alt=""
         />
         <input type="file" onChange={(e) => setFichier(e.target.files[0])} />

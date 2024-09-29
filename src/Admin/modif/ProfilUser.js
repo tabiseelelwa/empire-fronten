@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 const ProfilUser = () => {
-  const lien = "https://fizitech.org";
+  const lien = "https://empire-backend.fizitech.org";
 
   const navigate = useNavigate();
   const { idUser } = useParams();

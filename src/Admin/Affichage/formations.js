@@ -6,8 +6,7 @@ import { Link } from "react-router-dom";
 const AdminListFormation = () => {
   const [user, setUser] = useState([]);
 
-  // const lien = "https://fizitech.org";
-  const lien = "http://localhost:8085";
+  const lien = "https://empire-backend.fizitech.org";
 
   useEffect(() => {
     axios

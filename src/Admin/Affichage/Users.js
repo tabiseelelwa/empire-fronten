@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 const Users = () => {
-  // const lien = "https://fizitech.org";
-  const lien = "http://localhost:8085";
+  const lien = "https://empire-backend.fizitech.org";
 
   const [user, setUser] = useState([]);
 

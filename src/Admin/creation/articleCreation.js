@@ -7,7 +7,7 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
 const Article = () => {
-  const lien = "https://fizitech.org";
+  const lien = "https://empire-backend.fizitech.org";
 
   const navigate = useNavigate();
 

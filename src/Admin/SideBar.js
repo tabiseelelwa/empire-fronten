@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 export default function SideBar() {
   const navigate = useNavigate();
-  const lien = "https://fizitech.org";
+  const lien = "https://empire-backend.fizitech.org";
 
   const deconnexion = (e) => {
     e.preventDefault();
@@ -28,9 +28,7 @@ export default function SideBar() {
           Messages
           <span> 105 </span>
         </Link>
-        <Link to="formations">
-          Formations
-        </Link>
+        <Link to="formations">Formations</Link>
         <Link to="list-users">Utilisateurs</Link>
         <Link to="config">Paramètres</Link>
         <button onClick={deconnexion}>Deconnexion </button>

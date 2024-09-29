@@ -5,8 +5,8 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
 const CreateFormation = () => {
+  const lien = "https://empire-backend.fizitech.org";
   const navigate = useNavigate();
-  const lien = "https://fizitech.org";
   const [image, setImage] = useState("");
   const [intitule, setIntitule] = useState("");
   const [description, setDescription] = useState("");

@@ -6,7 +6,7 @@ import { useNavigate, useParams } from "react-router-dom";
 const ModifUser = () => {
   const { idUser } = useParams();
   const navigate = useNavigate();
-  const lien = "https://fizitech.org";
+  const lien = "https://empire-backend.fizitech.org";
   const [values, setValues] = useState({
     nom: "",
     postnom: "",

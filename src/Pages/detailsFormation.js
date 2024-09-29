@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const DetailsFormation = () => {
-  // const lien = "https://fizitech.org";
-  const lien = "http://localhost:8085";
+  const lien = "https://empire-backend.fizitech.org";
   const { idFormation } = useParams();
   const [formation, setFormation] = useState([]);
 

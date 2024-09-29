@@ -9,8 +9,7 @@ const Login = () => {
     password: "",
   });
 
-  // const lien = "https://fizitech.org";
-  const lien = "http://localhost:8085";
+  const lien = "https://empire-backend.fizitech.org";
 
   axios.defaults.withCredentials = true;
 
