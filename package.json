@@ -1,4 +1,6 @@
 {
+  "homepage": "https://empire-fronten.fizitech.org",
+  "proxy":"https://empire-backend.fizitech.org",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
